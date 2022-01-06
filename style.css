@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bakbak+One&family=Exo+2:wght@700&family=Racing+Sans+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lobster&family=Monoton&family=Pacifico&family=Roboto&family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lobster&family=Monoton&family=Pacifico&family=Roboto&family=Staatliches&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap");
 body {
@@ -46,17 +46,17 @@ h1 /*all h1 heading*/ {
   font-family: "Archivo Black", sans-serif;
   color: #333333;
   text-decoration-skip-ink: unset;
-  border-left: 4px solid #FF5A5A;
+  border-left: 4px solid #ff5a5a;
   padding-left: 15px;
 }
 h2 /*all h2 heading*/ {
   font-family: "Archivo Black", sans-serif;
-  
+
   font-size: 44px;
   color: #333333;
 }
-h3{
-    font-size: 28px;
+h3 {
+  font-size: 28px;
 }
 h4 /*all h2 heading*/ {
   font-family: "Roboto", sans-serif;
@@ -104,7 +104,7 @@ p /*all paragraph*/ {
 .Vission {
   width: 33%;
   box-shadow: 5px 5px 30px #00000026;
-  background-color:hsl(327, 100%, 76%, 0.60);
+  background-color: hsl(327, 100%, 76%, 0.6);
   margin-right: 40px;
   padding-left: 35px;
   padding-right: 20px;
@@ -123,93 +123,87 @@ p /*all paragraph*/ {
   padding-bottom: 80px;
   padding-top: 30px;
 }
-.Develop-section{
-    display: flex;
+.Develop-section {
+  background-image: url("images/develop.png");
+  background-repeat: no-repeat;
+  display: flex;
   padding: 0% 5%;
   padding-bottom: 150px;
 }
 .Develop {
-    
   padding-left: 40px;
 }
 .Develop-image {
   width: 500px;
   height: 500px;
-  background-image: url("images/shape-1.png");
+  margin-left: 80px;
+  
   background-repeat: no-repeat;
 }
-.Global-Community{
-    display: flex;
-    padding: 0% 5%;
-    padding-bottom: 150px;
+.Global-Community {
+ 
+  display: flex;
+  padding: 0% 5%;
+  padding-bottom: 150px;
 }
-.Global-Community-div{
-    width: 50%;
-    margin-right: 30px;
+.Global-Community-div {
+  width: 50%;
+  margin-right: 30px;
 }
-.Global-Community-sec-div{
-    width: 50%;
-    margin-right: 30px;
+.Global-Community-sec-div {
+  width: 50%;
+  margin-right: 30px;
 }
-.Global-Community-image{
+.Global-Community-image {
   width: 450px;
   height: 500px;
   padding-left: 110px;
 }
 
-.service{
-    padding: 0% 5%;
-    padding-bottom: 150px;
-  }
-.Our-service{
-    display: flex;
-    padding: 0% 5%;
-    padding-bottom: 150px;
+.service {
+  padding: 0% 5%;
+  padding-bottom: 50px;
+}
+.Our-service {
+  display: flex;
+  padding: 0% 5%;
+  padding-bottom: 150px;
 }
 
-.zoho-one{
-    width: auto;
-    box-shadow: 5px 5px 30px #00000026;
-    background-color: #FAFAFA;
-    margin-right: 40px;
-    padding-left: 35px;
-    padding-right: 20px;
-    border-radius: 30px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    text-align: center;
-
-
+.zoho-one {
+  width: auto;
+  box-shadow: 5px 5px 30px #00000026;
+  background-color: #fafafa;
+  margin-right: 40px;
+  padding-left: 35px;
+  padding-right: 20px;
+  border-radius: 30px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
 }
-.our-serviec-heding{
-    text-align: center;
-    
-   
-
+.our-serviec-heding {
+  text-align: center;
 }
-hr{
-       text-decoration: none;
-        background-color: red;
-        width: 15%;
-        padding-top: 2px;
-        margin-top: -15px;
-        margin-bottom: 70px;
-    }
-
-
-footer{
-    font-family: 'Exo 2', sans-serif;
-    color:white;
-    text-align: center;
-    background-color: #0B0D17;
-    padding: 50px 0px;
-    
-    
-
+hr {
+  text-decoration: none;
+  background-color: red;
+  width: 15%;
+  padding-top: 2px;
+  margin-top: -15px;
+  margin-bottom: 70px;
 }
-.footer-2020-span{
-    color:#FF5A5A
+
+footer {
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 50px 0px;
 }
-.footer-p{
-    color: rgb(255, 255, 255);
+.footer-2020-span {
+  color: #ff5a5a;
+}
+.footer-p {
+  color: rgb(255, 255, 255);
 }
