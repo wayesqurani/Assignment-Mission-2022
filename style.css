@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bakbak+One&family=Exo+2:wght@700&family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap");
+body {
+  margin: 0%;
+}
+.Stay-Focused {
+  display: flex;
+  padding: 0% 5%;
+  padding-bottom: 150px;
+}
+.Stay-Focused-div {
+  width: 50%;
+  padding-right: 30px;
+}
+.mission-2020-span {
+  color: #FF5A5A;
+}
+
+.Stay-Focused-sec-div {
+  width: 50%;
+  padding-right: 30px;
+}
+.here-me-buttom {
+  border: none;
+  padding: 13px 45px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #ff5a5a;
+  color: white;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.Stay-Focused-sec-div-img {
+  height: 400px;
+  width: 400px;
+  padding-left: 170px;
+  margin-top: 50px;
+  transition: 0.5s;
+}
+.Stay-Focused-sec-div-img:hover {
+  transform: scale(1.1);
+}
+h1 /*all h1 heading*/ {
+  font-size: 54px;
+  font-family: "Archivo Black", sans-serif;
+}
+h2 /*all h2 heading*/{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 44px;
+}
+h4 /*all h2 heading*/{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+p /*all paragraph*/ {
+  font-family: "Roboto", sans-serif;
+  color: #424242;
+  font-size: 16px;
+}
+.My-Mission {
+  padding: 0% 5%;
+  padding-bottom: 150px;
+  justify-content: center;
+}
+.My-Mission-h2{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.span-2022{
+    color:#FF5A5A
+}
+.My-Mission-parent-div {
+  display: flex;
+
+}
+.My-Mission-images{
+margin-left: -25px;
+height:200px;
+width:200px;
+}
+.Mission {
+  width: auto;
+  box-shadow: 5px 5px 30px thistle;
+  background-color: #F9C5D5;
+  margin-right: 40px;
+  padding-left:35px;
+  padding-right: 20px;
+  border-radius: 30px;
+  padding-bottom: 80px;
+}
+.Vission {
+    width: auto;
+    box-shadow: 5px 5px 30px thistle;
+    background-color: #FFEEEE;
+    margin-right: 40px;
+    padding-left:35px;
+    padding-right: 20px;
+    border-radius: 30px;
+    padding-bottom: 80px;
+  }
+  .Goals {
+    width: auto;
+    box-shadow: 5px 5px 30px thistle;
+    background-color: #D9D7F1;
+    margin-right: 40px;
+    padding-left:35px;
+    padding-right: 20px;
+    border-radius: 30px;
+    padding-bottom: 80px;
+  }
