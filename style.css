@@ -8,7 +8,7 @@ body {
 .Stay-Focused {
   display: flex;
   padding: 0% 5%;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
 }
 .Stay-Focused-div {
   width: 50%;
@@ -45,6 +45,9 @@ h1 /*all h1 heading*/ {
   font-size: 54px;
   font-family: "Archivo Black", sans-serif;
   color: #333333;
+  text-decoration-skip-ink: unset;
+  border-left: 4px solid #FF5A5A;
+  padding-left: 15px;
 }
 h2 /*all h2 heading*/ {
   font-family: "Archivo Black", sans-serif;
@@ -88,7 +91,7 @@ p /*all paragraph*/ {
   width: 200px;
 }
 .Mission {
-  width: auto;
+  width: 33%;
   box-shadow: 5px 5px 30px #00000026;
   background-color: #f9c5d5;
   margin-right: 40px;
@@ -99,9 +102,9 @@ p /*all paragraph*/ {
   padding-top: 30px;
 }
 .Vission {
-  width: auto;
+  width: 33%;
   box-shadow: 5px 5px 30px #00000026;
-  background-color: #ffeeee;
+  background-color:hsl(327, 100%, 76%, 0.60);
   margin-right: 40px;
   padding-left: 35px;
   padding-right: 20px;
@@ -110,7 +113,7 @@ p /*all paragraph*/ {
   padding-top: 30px;
 }
 .Goals {
-  width: auto;
+  width: 33%;
   box-shadow: 5px 5px 30px #00000026;
   background-color: #d9d7f1;
   margin-right: 40px;
@@ -132,6 +135,8 @@ p /*all paragraph*/ {
 .Develop-image {
   width: 500px;
   height: 500px;
+  background-image: url("images/shape-1.png");
+  background-repeat: no-repeat;
 }
 .Global-Community{
     display: flex;
@@ -150,14 +155,55 @@ p /*all paragraph*/ {
   width: 450px;
   height: 500px;
   padding-left: 110px;
+}
+
+.service{
+    padding: 0% 5%;
+    padding-bottom: 150px;
+  }
+.Our-service{
+    display: flex;
+    padding: 0% 5%;
+    padding-bottom: 150px;
+}
+
+.zoho-one{
+    width: auto;
+    box-shadow: 5px 5px 30px #00000026;
+    background-color: #FAFAFA;
+    margin-right: 40px;
+    padding-left: 35px;
+    padding-right: 20px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    text-align: center;
+
 
 }
+.our-serviec-heding{
+    text-align: center;
+    
+   
+
+}
+hr{
+       text-decoration: none;
+        background-color: red;
+        width: 15%;
+        padding-top: 2px;
+        margin-top: -15px;
+        margin-bottom: 70px;
+    }
+
+
 footer{
     font-family: 'Exo 2', sans-serif;
     color:white;
     text-align: center;
     background-color: #0B0D17;
     padding: 50px 0px;
+    
     
 
 }
